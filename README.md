@@ -1,3 +1,4 @@
 # LearningGit
 this is my first git
-<br>author name- Ismaeel
+<br>
+author -Ismaee (Candle)
