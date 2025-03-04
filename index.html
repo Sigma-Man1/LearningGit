@@ -1,1 +1,68 @@
-<p>Hellow world!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello World!</title>
+   
+   
+</head>
+<body >
+    <h1>this is my first webpages</h1>
+
+    <p>description of the customer:</p>
+    <form action="/action.php">
+     <label for="name">Name</label><br>
+      <input type="text" name="Seikh Hadi" value="Seikh Hadi" id="name"><br>
+      <label for="contact">Contat Number</label><br>
+      <input type="text" name="Number" placeholder="enter your phone Number "   id="contact"> 
+       <hr>
+   <p>Select your hometown</p>
+        
+         <input type="checkbox" id="syl" name="hometown" value="sylhet">
+         <label for="syl">sylhet</label><br>
+         <input type="checkbox" id="DC" name="hometown" value="dhaka">
+         <label for="DC">Dhaka</label><br>
+         <input type="checkbox" id="KU" name="hometown" value="khulna">
+         <label for="KU">Khulna</label><br>
+         <input type="submit" value="submit">
+       <hr>
+       <p>Select your hometown</p>
+       <input type="radio" id="syl" name="hometown" value="sylhet">
+       <label for="syl">sylhet</label><br>
+       <input type="radio" id="DC" name="hometown" value="dhaka">
+       <label for="DC">Dhaka</label><br>
+       <input type="radio" id="KU" name="hometown" value="khulna">
+       <label for="KU">Khulna</label><br>
+       <input type="submit" value="submit">
+       <hr>
+       <fieldset>
+        <legend> this is a fieldset</legend><!--legend attribute set caption for fieldset-->
+        <label for="cars">choose a car</label>
+           <select id="cars" name="cars" >
+             <option value="Marcedes">Marcedes</option>  
+             <option value="NissanPetrol" selected>Nissan Petrol<option><!--use selected attribute to set default options-->
+              <option value="Ferrari">ferrari</option>
+              <option value="RangeRover">RangeRover</option>
+           </select><br>
+           <button type="button" onclick="alert('Assalamuwalaikum')">Click here</button><!--always use type with button-->
+        </fieldset>
+        <!--Data list element.userwill see a drop-down list of the pre-defined options as they input data.-->
+        <p>The datalist element specifies a list of pre-defined options for an input element.</p>
+         <input list="subject">
+         <datalist id="subject">
+           <option value="math">
+            <option value="politicalScience">
+            <option value="CSE">
+         </datalist>
+         <input type="submit">
+
+        <hr>
+        <label for="feedback">write your feedback here</label><br>
+          <textarea name="feedback" style="height: 100px;width: 100px;">NissanPetrol is popular in GCC....</textarea>
+            <hr>
+      
+          </form>
+  
+</body>
+</html>
